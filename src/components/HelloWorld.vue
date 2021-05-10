@@ -3,7 +3,7 @@
         <button v-for="(v, i) of girls" :key="i" @click="girlsFn(i)">
             {{ v }}
         </button>
-        <p>欢迎选【{{ name }}】</p>
+        <p>欢迎选【{{ name }}】为你服务</p>
     </div>
 </template>
 
