@@ -16,7 +16,6 @@ interface dataProps {
 }
 export default defineComponent({
     name: "HelloWorld",
-
     setup() {
         //把同一行为的变量和方法放在一起, 便于后期管理维护
         const data: dataProps = reactive({
