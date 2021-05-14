@@ -90,7 +90,7 @@ export default defineComponent({
         // });
 
         onRenderTriggered((event) => {
-            console.log("状态跟踪钩子函数--------->", event); //跟踪单个响应式数据和函数 , 点哪个就跟踪哪个 , 常用来调试使用(推荐调试使用)
+            console.log("状态跟踪钩子函数--------->", event); //跟踪单个响应式数据和函数 , 哪个改变就跟踪哪个 , 常用来调试使用(推荐调试使用)
         });
 
         //...名叫 扩展运算符
